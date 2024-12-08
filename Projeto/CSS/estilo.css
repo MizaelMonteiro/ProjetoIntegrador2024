@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(4, 4, 80);
+    color: white;
+    
+}
+h1{
+    text-shadow: -2px -2px 0 black, /* Topo esquerdo */
+    1px -1px 0 black, /* Topo direito */
+   -2px  2px 0 black, /* Inferior esquerdo */
+    1px  1px 0 black; /* Inferior direito */ ;
+    
+}
+#plead{
+    background-color: rgba(0, 0, 0, 0.486);
+    text-align:center;
+    
+}
+#header-gradient-container{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(4, 2, 77)) ;
+    height: 3em;
+    position:absolute; left: 0; top: o; width: 100%; height: 476px;
+}
+header {
+    height: 500;
+    background-image: url("../IMAGENS/background-header-celulas.webp");
+    background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem no elemento */
+    height: 500px; /* Define a altura do header */
+    
+    
+}
+main{
+    position: relative;
+}
+p{
+    text-align: justify;
+}
+
+#sobremim{
+    
+    
+    width: 100%;
+
+    position: relative; /* Mantém o elemento no fluxo do documento */
+    width: 100vw; /* Define a largura como 100% da janela */
+    left: 50%; /* Centraliza o elemento */
+    transform: translateX(-50%); /* Ajusta para alinhar ao centro da tela */
+    padding: 2rem; /* Espaçamento interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+#receitas .btn{
+    width: 100%;
+}
+
+.carousel-inner{
+    width: 300px;
+}
+.carousel-inner .carousel-item{
+    height: 500px;
+    width: 500px;
+}
+#receita .card{
+    width: 460px;
+   
+}
+.card-text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+

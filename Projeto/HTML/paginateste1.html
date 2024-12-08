@@ -1,3 +1,5 @@
+
+<!-- Salvando essa versão pq o card da vegetal nao ta criado o texto fora do lugar. Talvez possa usar de ref pra concertar-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +41,7 @@
     
         <header id="header" class=" text-white text-center py-4">
             <div id="header-gradient-container">
-                <h1 class="fw-bold mb-4">Bem Vindo à jornada celular</h1>
+                <h1 class="fw-bold mb-4">Bem Vindo</h1>
                 <p  id="plead" class=" lead fs-3 mx-2">Aproveie está pequena experiência para aprendender mais sobre o mundo celular e como funciona um dos processos fundamentais da vida. Aproveie está pequena experiência para aprendender mais sobre o mundo celular e como funciona um dos processos fundamentais da vida.</p>
             </div>
             
@@ -54,19 +56,17 @@
         <section id="receitas" class="my-5">
             <div class="row">
                 <h3>Célula Animal</h3>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-4">
                     <img src="../IMAGENS/celulaanimal.jpg" style="height: 240px;" class="card-img-top" alt="Célula Animal">
                     <div class="card mb-6 mt-1 shadow align-items-center" >
                         <div id="carouselAnimal" class="carousel slide"  >
-                            <div class="text-center" style="width: 500px " >
-                                <div class="carousel-item active mb-3">
+                            <div class="text-center" style="width: 460px " >
+                                <div class="carousel-item active">
                                     <div class="card-body">
                                         <h5 class="card-title text-center mb-3">O que é?</h5>
                                         <p class="card-text" >A célula animal é um tipo de célula eucarionte encontrada em organismos do Reino Animal.</p>
                                     </div>
-                                    
                                 </div>
-                                
                                 <div class="carousel-item">
                                     <div class="card-body">
                                         <h5 class="card-title text-center mb-3">Características</h5>
@@ -80,111 +80,58 @@
                                     </div>
                                 </div>
                             </div>
-                            
                             <!-- Setas para navegação -->
-                            <button class="carousel-control-prev bg-success align-itens-center" style="height: 50px; width:50px ; top:50%; border-radius: 50%;" type="button" data-bs-target="#carouselAnimal" data-bs-slide="prev">
+                            <button class="carousel-control-prev bg-success align-itens-center" style="height: 50px; width:30px ; top:50%" type="button" data-bs-target="#carouselAnimal" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next bg-success align-items-center" style="height: 50px; width:50px ; top:50%; border-radius: 50%;" type="button" data-bs-target="#carouselAnimal" data-bs-slide="next">
+                            <button class="carousel-control-next bg-success align-items-center" style="height: 50px; width:30px ; top:50%" type="button" data-bs-target="#carouselAnimal" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
-                        <a href="#" class="btn btn-success " style="position: relative;">Veja mais</a>
                     </div>
                 </div>
                 
-                
+                <!-- Repita o mesmo formato para outros cards -->
                 <h3>Célula Vegetal</h3>
-                <div class="col-md-4 mb-5">
+                <div class="col-md-4">
                     <img src="../IMAGENS/celulavegetal.jpg" style="height: 240px;" class="card-img-top" alt="Célula Vegetal">
-                    <div class="card mb-6 mt-1 shadow align-items-center" >
-                        <div id="carouselVegetal" class="carousel slide"  >
-                            <div class="text-center" style="width: 500px " >
-                                <div class="carousel-item active mb-3">
+                    <div class="card mb-5 mt-1 shadow ">
+                        
+                        <div id="carouselVegetal" class="carousel slide" >
+                            <div class="carousel-inner" style="width: 460;">
+                                <div class="carousel-item active">
                                     <div class="card-body">
                                         <h5 class="card-title text-center mb-3">O que é?</h5>
-                                        <p class="card-text" >A célula animal é um tipo de célula eucarionte encontrada em organismos do Reino Animal.</p>
+                                        <p class="card-text">A célula vegetal é uma célula eucarionte característica dos organismos do Reino Plantae.</p>
                                     </div>
-                                    
                                 </div>
-                                
                                 <div class="carousel-item">
                                     <div class="card-body">
                                         <h5 class="card-title text-center mb-3">Características</h5>
-                                        <p class="card-text">Ela possui diversas organelas delimitadas por membranas, como o núcleo e as mitocôndrias.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center mb-3">Curiosidades</h5>
-                                        <p class="card-text">A ausência de parede celular confere maior flexibilidade estrutural às células animais.</p>
+                                        <p class="card-text">Ela contém parede celular, cloroplastos e vacúolos maiores, fundamentais para sua função.</p>
                                     </div>
                                 </div>
                             </div>
-                            
                             <!-- Setas para navegação -->
-                            <button class="carousel-control-prev bg-success align-itens-center" style="height: 50px; width:50px ; top:50%; border-radius: 50%;" type="button" data-bs-target="#carouselVegetal" data-bs-slide="prev">
+                            <button class="carousel-control-prev bg-success" type="button" data-bs-target="#carouselVegetal" data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next bg-success align-items-center" style="height: 50px; width:50px ; top:50%; border-radius: 50%;" type="button" data-bs-target="#carouselVegetal" data-bs-slide="next">
+                            <button class="carousel-control-next bg-success" type="button" data-bs-target="#carouselVegetal" data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
-                        <a href="#" class="btn btn-success " style="position: relative;">Veja mais</a>
                     </div>
                 </div>
                 
-                
-                <h3>Célula Vegetal</h3>
-                <div class="col-md-4 mb-5">
-                    <img src="../IMAGENS/alimentacaocelular.jpg" style="height: 240px;" class="card-img-top" alt="Nutrição Celular">
-                    <div class="card mb-6 mt-1 shadow align-items-center" >
-                        <div id="carouselNutricao" class="carousel slide"  >
-                            <div class="text-center" style="width: 500px " >
-                                <div class="carousel-item active mb-3">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center mb-3">O que é?</h5>
-                                        <p class="card-text" >A célula animal é um tipo de célula eucarionte encontrada em organismos do Reino Animal.</p>
-                                    </div>
-                                    
-                                </div>
-                                
-                                <div class="carousel-item">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center mb-3">Características</h5>
-                                        <p class="card-text">Ela possui diversas organelas delimitadas por membranas, como o núcleo e as mitocôndrias.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center mb-3">Curiosidades</h5>
-                                        <p class="card-text">A ausência de parede celular confere maior flexibilidade estrutural às células animais.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!-- Setas para navegação -->
-                            <button class="carousel-control-prev bg-success align-itens-center" style="height: 50px; width:50px ; top:50%; border-radius: 50%;" type="button" data-bs-target="#carouselNutricao" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next bg-success align-items-center" style="height: 50px; width:50px ; top:50%; border-radius: 50%;" type="button" data-bs-target="#carouselNutricao" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                        <a href="#" class="btn btn-success " style="position: relative;">Veja mais</a>
-                    </div>
-                </div>
-                
+                <!-- Adicione mais cards com a mesma estrutura, alterando os textos e IDs do carousel -->
             </div>
 </section>
 
-        <section id="contato" class="my-5 ">
+        <section id="contato" class="my-5 bg-success">
             <h2>Contato</h2>
             <form>
                 <div class="mb-3">
@@ -203,14 +150,13 @@
             </form>
         </section>
     </main>
-    <footer class="bg-dark text-center py-2">
+    <footer class="bg-light text-center py-2">
         <p>&copy; 2024 Livro de Receitas. Todos os direitos reservados.</p>
     </footer>
     <!-- Bootstrap JS e dependências -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
